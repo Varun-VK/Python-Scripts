@@ -6,7 +6,7 @@ import unittest
 class Test_PythonOrg(unittest.TestCase):
 
 	def setUp(self):
-		self.browser = webdriver.Firefox()
+		self.browser = webdriver.Safari()
 
 	def tearDown(self):
 		sleep(4)
