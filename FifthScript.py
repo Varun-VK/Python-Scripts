@@ -25,3 +25,7 @@ def test_05_AddItemsToCartWorks(self):
 		self.browser.find_element_by_id("isCartBtn_btn").click()
 		sleep(60)
 		self.assertTrue("No results found." not in self.browser.page_source)
+
+		
+if __name__ == "__main__":
+	unittest.main(verbosity=2)
