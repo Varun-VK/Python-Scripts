@@ -11,3 +11,5 @@ Test case 2: Check if Sign In page works.
 Test case 3: Register a user.
 
 Test case 4 : Check if the registered user can Sign in successfully.
+
+Test case 5 : Add items to cart.
