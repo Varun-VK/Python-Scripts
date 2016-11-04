@@ -1,3 +1,18 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from time import sleep
+import unittest
+
+class Test_PythonOrg(unittest.TestCase):
+
+	def setUp(self):
+		self.browser = webdriver.Safari()
+
+	def tearDown(self):
+		sleep(4)
+		self.browser.close()
+		self.browser = None
+
 def test_05_AddItemsToCartWorks(self):
 		"Test to make sure that the user can add items to the cart."
 		self.browser.get("http://www.ebay.com")
